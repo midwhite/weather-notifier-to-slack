@@ -1,0 +1,30 @@
+{
+  "name": "slack-gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "clasp": "clasp",
+    "clasp:login": "clasp login",
+    "clasp:push": "clasp push",
+    "clasp:open": "clasp open",
+    "eslint": "eslint",
+    "eslint:fix": "eslint --fix",
+    "prettier": "prettier",
+    "prettier:fix": "prettier --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/clasp": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.36",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
+  }
+}
